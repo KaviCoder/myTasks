@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F4F1E7225F974630067E28E /* DailyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F1E7125F974630067E28E /* DailyViewCell.swift */; };
+		6F4F1E7A2602533D0067E28E /* CalenderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F1E792602533C0067E28E /* CalenderData.swift */; };
 		6FD1658B25E5650F009D61EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1658A25E5650F009D61EF /* AppDelegate.swift */; };
 		6FD1658D25E5650F009D61EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1658C25E5650F009D61EF /* SceneDelegate.swift */; };
-		6FD1658F25E5650F009D61EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1658E25E5650F009D61EF /* ViewController.swift */; };
+		6FD1658F25E5650F009D61EF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1658E25E5650F009D61EF /* WelcomeViewController.swift */; };
 		6FD1659225E5650F009D61EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD1659025E5650F009D61EF /* Main.storyboard */; };
 		6FD1659525E5650F009D61EF /* myTasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1659325E5650F009D61EF /* myTasks.xcdatamodeld */; };
 		6FD1659725E56516009D61EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD1659625E56516009D61EF /* Assets.xcassets */; };
 		6FD1659A25E56516009D61EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD1659825E56516009D61EF /* LaunchScreen.storyboard */; };
 		6FD165A525E56517009D61EF /* myTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD165A425E56517009D61EF /* myTasksTests.swift */; };
 		6FD165B025E56517009D61EF /* myTasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD165AF25E56517009D61EF /* myTasksUITests.swift */; };
+		6FD165C125E56687009D61EF /* DailyViewTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD165C025E56687009D61EF /* DailyViewTable.swift */; };
+		6FD165CC25E5A56D009D61EF /* MyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD165CB25E5A56D009D61EF /* MyConstants.swift */; };
+		6FD165DD25E61D64009D61EF /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD165DC25E61D64009D61EF /* PopUpViewController.swift */; };
+		6FD165E525E76009009D61EF /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD165E425E76008009D61EF /* MyData.swift */; };
+		6FD165F025E95A89009D61EF /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD165EF25E95A89009D61EF /* CalenderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F4F1E7125F974630067E28E /* DailyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewCell.swift; sourceTree = "<group>"; };
+		6F4F1E792602533C0067E28E /* CalenderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderData.swift; sourceTree = "<group>"; };
 		6FD1658725E5650F009D61EF /* myTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD1658A25E5650F009D61EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD1658C25E5650F009D61EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6FD1658E25E5650F009D61EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FD1658E25E5650F009D61EF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		6FD1659125E5650F009D61EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FD1659425E5650F009D61EF /* myTasks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myTasks.xcdatamodel; sourceTree = "<group>"; };
 		6FD1659625E56516009D61EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +60,11 @@
 		6FD165AB25E56517009D61EF /* myTasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myTasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD165AF25E56517009D61EF /* myTasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTasksUITests.swift; sourceTree = "<group>"; };
 		6FD165B125E56517009D61EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD165C025E56687009D61EF /* DailyViewTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewTable.swift; sourceTree = "<group>"; };
+		6FD165CB25E5A56D009D61EF /* MyConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConstants.swift; sourceTree = "<group>"; };
+		6FD165DC25E61D64009D61EF /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		6FD165E425E76008009D61EF /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		6FD165EF25E95A89009D61EF /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +117,9 @@
 			children = (
 				6FD1658A25E5650F009D61EF /* AppDelegate.swift */,
 				6FD1658C25E5650F009D61EF /* SceneDelegate.swift */,
-				6FD1658E25E5650F009D61EF /* ViewController.swift */,
-				6FD1659025E5650F009D61EF /* Main.storyboard */,
+				6FD165D025E5A9AC009D61EF /* Controller */,
+				6FD165D725E5A9C3009D61EF /* View */,
+				6FD165D825E5AA5A009D61EF /* Modal */,
 				6FD1659625E56516009D61EF /* Assets.xcassets */,
 				6FD1659825E56516009D61EF /* LaunchScreen.storyboard */,
 				6FD1659B25E56516009D61EF /* Info.plist */,
@@ -129,6 +144,36 @@
 				6FD165B125E56517009D61EF /* Info.plist */,
 			);
 			path = myTasksUITests;
+			sourceTree = "<group>";
+		};
+		6FD165D025E5A9AC009D61EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6FD1658E25E5650F009D61EF /* WelcomeViewController.swift */,
+				6FD165EF25E95A89009D61EF /* CalenderViewController.swift */,
+				6FD165C025E56687009D61EF /* DailyViewTable.swift */,
+				6F4F1E7125F974630067E28E /* DailyViewCell.swift */,
+				6FD165DC25E61D64009D61EF /* PopUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6FD165D725E5A9C3009D61EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6FD1659025E5650F009D61EF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FD165D825E5AA5A009D61EF /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				6FD165CB25E5A56D009D61EF /* MyConstants.swift */,
+				6FD165E425E76008009D61EF /* MyData.swift */,
+				6F4F1E792602533C0067E28E /* CalenderData.swift */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +307,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FD1659525E5650F009D61EF /* myTasks.xcdatamodeld in Sources */,
-				6FD1658F25E5650F009D61EF /* ViewController.swift in Sources */,
+				6FD1658F25E5650F009D61EF /* WelcomeViewController.swift in Sources */,
+				6FD165DD25E61D64009D61EF /* PopUpViewController.swift in Sources */,
 				6FD1658B25E5650F009D61EF /* AppDelegate.swift in Sources */,
+				6F4F1E7225F974630067E28E /* DailyViewCell.swift in Sources */,
+				6FD165CC25E5A56D009D61EF /* MyConstants.swift in Sources */,
+				6FD165C125E56687009D61EF /* DailyViewTable.swift in Sources */,
+				6FD165F025E95A89009D61EF /* CalenderViewController.swift in Sources */,
 				6FD1658D25E5650F009D61EF /* SceneDelegate.swift in Sources */,
+				6F4F1E7A2602533D0067E28E /* CalenderData.swift in Sources */,
+				6FD165E525E76009009D61EF /* MyData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +495,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAS2UF9Y9D;
 				INFOPLIST_FILE = myTasks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAS2UF9Y9D;
 				INFOPLIST_FILE = myTasks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
