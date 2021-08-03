@@ -6,4 +6,4 @@ Various UIKIT elements are used to make a pop up page to create the records.
 //Future Scope:
 A floating ADD button can be added and used instead of Bar Button Item.
 A calender View will be added to see the tasks monthly.
-Alarms can be set acordingly.
+Alarms can be set accordingly.
