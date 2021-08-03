@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nhW-Bm-ojR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nhW-Bm-ojR">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -293,7 +293,7 @@
                         <color key="sectionIndexBackgroundColor" name="ColorYellow"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="myCell" editingAccessoryType="checkmark" rowHeight="179" id="pl2-r9-hTY" customClass="DailyViewCell" customModule="myTasks" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="179"/>
+                                <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="179"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pl2-r9-hTY" id="6Xs-Iw-JdI">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="179"/>
@@ -446,7 +446,7 @@
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="NRm-bE-9p6">
                             <color key="tintColor" systemColor="linkColor"/>
                             <connections>
-                                <segue destination="7iE-ja-wnZ" kind="showDetail" id="31B-yk-zAm"/>
+                                <segue destination="7iE-ja-wnZ" kind="showDetail" identifier="toPopUp" id="31B-yk-zAm"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

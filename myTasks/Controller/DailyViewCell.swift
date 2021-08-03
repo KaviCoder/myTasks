@@ -8,7 +8,10 @@
 import Foundation
 import UIKit
 
-protocol YourCellDelegate : class {
+
+//Protocol/Delegate concept used.
+
+protocol YourCellDelegate  {
   func  buttonClicked(_ sender : UIButton)
 }
 
@@ -28,8 +31,6 @@ class DailyViewCell: UITableViewCell {
      
         cellDelegate?.buttonClicked( sender)
         
-//        var resultCompleted =   fetchedResultsController.object(at:  self.myTableView.indexPath).completed
-//        resultCompleted = !resultCompleted
         
        
     }

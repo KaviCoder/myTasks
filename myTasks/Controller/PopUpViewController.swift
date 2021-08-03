@@ -126,7 +126,7 @@ class PopUpViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             //update UI
             //move to daily View Table
             
-            //create object in a specific contex
+            //create object of the entity in Modelid ...in a specific contex
             let newItem = Tasktable(context: self.context!)
             newItem.datecreated = date
             newItem.alarmForNextDay = alarm
@@ -155,11 +155,7 @@ class PopUpViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             
     }
         else{
-           
-            
-           
-           
-
+        
             taskName.backgroundColor = UIColor.red.withAlphaComponent(0.2)
             taskName.attributedPlaceholder = NSAttributedString(string: "Please Enter Task Name" , attributes: [NSAttributedString.Key.foregroundColor: UIColor.red.withAlphaComponent(0.7)])
             
@@ -171,7 +167,7 @@ class PopUpViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         print("cancel pressesd")
         self.dismiss(animated: true)
         
-       // self.view.window!.rootViewController?.dismiss(animated: false, completion: nil)
+  
         
     }
 }
